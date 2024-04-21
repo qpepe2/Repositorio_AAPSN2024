@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercios clase 03</title>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 40; background-color: rgb(46, 145, 71); color: rgb(26, 24, 27);">Animate a Programar</h1>
+        <img src="../Img/logo_proghtml.jpeg" alt="Logo HTML">
+        <nav>
+            Link a páginas con ejercicios de clases
+            <ul>
+                <li><a href="../Index.html"> <b>INICIO</b></a></li>
+                <li><a href="../Clase00/clase00.html"> Clase 00</a></li>
+                <li> Clase 01: GIT & GITHUB (sin ejercicio)</li>
+                <li><a href="../Clase02/clase02.html"> Clase 02</a></li>
+                <li><a href="../Clase03/clase03.html"> Clase 03</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <a href="http://youtu.be/zT0FMYPp1fI?list=PLfY4TuiJBrEaODXESvEquhO9d76rhb4_k"> Prueba de uso del ASIDE </a>
+            <p> Link al video de clase 03, explicando el uso del ASIDE, FORMULARIOS, ETC.</p>
+        </aside>
+        <br>
+        <form action="#" method="get">
+            <section>
+                <div>
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" id="Nombre" placeholder="tu nombre" required>
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="Apellido" placeholder="tu apellido" required>
+                    <br>
+                </div>
+                <div>
+                    <Label for="Sexo">Sexo: </Label>  
+                    Masculino <input type="radio" id="Sexo" name="Sexo" value="Masculino">
+                    Femenino <input type="radio" id="Sexo" name="Sexo" value="Femenino">
+                    Otro <input type="radio" id="Sexo" name="Sexo" value="Otro">
+                </div>
+                <div>
+                    <label for="fecha_nac">Fecha Nacimiento:</label>
+                    <input type="date" id="fecha_nac" required>
+                    <br>
+                    <label for="Prov_nac">Provincia de Nacimiento: </label>
+                    <select name="Prov_nac" id="Prov_nac">
+                        <option value="CAFE">Cap.Federal</option>
+                        <option value="BSAS">Buenos Aires</option>
+                        <option value="SAFE">Santa Fe</option>
+                        <option value="CHUB">Chubut</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <br>
+                    <label for="Teléfono">Teléfono</label>
+                    <input type="number" minlength="10" maxlength="10" id="Teléfono" placeholder="Sin el 0 ni el 15" size="1900" required>
+                    
+                    <br>
+                    <label for="Email">Correo Electrónico: </label>
+                    <input type="email" name="Email" id="Email" placeholder="ejemplo@correo.com" required>
+                    <br>
+                </div>
+            </section>
+            <br>
+            <div>
+                <P> <b>Intereses:</b></P> 
+                <label for="Política">Política</label>
+                <input type="checkbox" name="Política" id="Política" value="Política">
+                <label for="Deportes">Deportes</label>
+                <input type="checkbox" name="Deportes" id="Deportes" value="Deportes">
+                <label for="Economía">Economía</label> 
+                <input type="checkbox" name="Economía" id="Economía" value="Economía">
+                <label for="Ciencia">Ciencia</label>
+                <input type="checkbox" name="Ciencia" id="Ciencia" value="Ciencia">
+                <br>
+            </div>
+            <br>
+            <div>
+                <label for="Comentarios">Indique si tiene otros comentarios: <br></label>
+                <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" maxlength="255"></textarea>
+            </div>
+            <br>
+            <br>
+            <div>
+                <input type="checkbox" required>  He leído y acepto todas las <a href="http://www.argentina.gob.ar/justicia/convosenlaweb/situaciones/porque-es-importante-leer-los-terminos-y-condiciones-de-una-pagina-en-internet-o-aplicacion"> condiciones legales</a>
+            </div>
+            <br>
+            <div>
+                <label for="Usuario">Usuario:</label>
+                <input type="text" id="Usuario" placeholder="tu usuario" required>
+                <label for="Contraseña">Contraseña</label>
+                <input type="password" id="Contraseña" placeholder="tu contraseña" required>
+                <br>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Ingresar" style="font-size: large;">
+                <input type="reset" value="Reestablecer">
+                <p>(BOTON DEBE IR DENTRO DEL FORMULARIO)</p>
+            </div>
+
+        </form>
+    </main>
+    <br>
+    <footer>
+        <p style="background-color: grey;">© José Quilici 
+            <br>
+        Contacto: <a href="mailto:qpepe2@gmail.com"> Correo Electrónico</a>
+        </p>
+    </footer>  
+</body>
+</html>
