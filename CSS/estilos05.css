@@ -128,7 +128,30 @@ body main aside{
     padding: 5px;
     padding-left: 10px;
     padding-bottom: 10px;
-    margin: 10px;
+    margin: 10px;    
+}
 
-    
+.ejercio05{
+    width: 400px;
+    height: 150px;
+    background-color: #8bb189;
+    border-width: 4px;
+    border-style: dashed;
+    border-radius: 10%;
+    margin: 50px;
+    padding: 40px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: darkslategray;
+    position: sticky;
+
+}
+.body{
+    background-image: url(../Img/FrneLQCXwAUFjnY.jpeg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
 }
