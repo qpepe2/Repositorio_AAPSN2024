@@ -1,0 +1,85 @@
+/* COMENTARIOS: vam con este formato, tipo recordatorios.
+
+SELECTORES: no usar etiquetas html En el primer ejemplo el selector es: body{} Debe colocarse la propiedad CLASS en el html
+
+body {
+    background-color: rgba(55, 112, 60, 0.356);
+    color: rgb(83, 81, 81)
+}
+/*
+
+/* Busca dentro de BODY un MAIN,  dentro del main un ASIDE. Allì coloca color y background color, etc... Son de mayor prioridad/peso  este tipo de propiedades*/
+body main aside{
+    color: rgb(212, 10, 10);
+    background-color: rgb(51, 47, 47);
+    font-size: 28px;
+    width: 25%;
+    text-align: justify;
+}
+
+/*Utilizar clases en CSS para darle estilos. Se lo llama con "." */
+
+
+/* EJERCICIO 04*/
+
+.titulos_tabla{
+    font-weight: bolder;
+}
+.tablas{
+    border-style: double;
+    border:1px;
+    border-radius: 10%;
+}
+.encabezados{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+.turno{
+    color: cyan;
+}
+.nombre{
+    color: darkgoldenrod;
+}
+.apellido{
+    color: darkgreen;
+}
+.foto{
+    color: darkolivegreen;
+}
+.red_soc{
+    color: darkorange;
+}
+.nota{
+    color: darkslategray;
+}
+.turnos{
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(133, 129, 129);
+}
+.observaciones{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+/* EJERCICIO 05 */
+
+.header{
+    background-color: rgb(202, 133, 54);
+    width: 100%;
+    height: 20%;
+}
+.footer{
+    background-color: rgb(146, 142, 142);
+    width: 100%;
+    height: 12%;
+}
+.formulario{
+    background-color: #436841;
+    font-size: 1.1em;
+    border-color: rgb(26, 75, 13);
+    border-style: solid ;
+    border-width: 15px;
+    
+}
