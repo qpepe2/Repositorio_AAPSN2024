@@ -81,5 +81,6 @@ body main aside{
     border-color: rgb(26, 75, 13);
     border-style: solid ;
     border-width: 15px;
+    padding: 5px;
     
 }
