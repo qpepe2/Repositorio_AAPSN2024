@@ -26,42 +26,81 @@ body main aside{
     font-weight: bolder;
 }
 .tablas{
-    border-style: double;
-    border:1px;
-    border-radius: 10%;
+    width: 50%;
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;  
+
 }
 .encabezados{
     font-weight: bold;
     font-size: 28px;
     text-align: center;
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;  
 }
 .turno{
     color: cyan;
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;  
 }
 .nombre{
     color: darkgoldenrod;
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;  
 }
 .apellido{
     color: darkgreen;
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;  
 }
 .foto{
     color: darkolivegreen;
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;  
 }
 .red_soc{
     color: darkorange;
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;  
 }
 .nota{
     color: darkslategray;
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;  
 }
 .turnos{
     font-style: oblique;
     font-size: 20px;
     color: rgb(133, 129, 129);
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;  
 }
 .observaciones{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-style: italic;
+    border-radius:2%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;  
 }
 /* EJERCICIO 05 */
 
