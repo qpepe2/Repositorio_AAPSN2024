@@ -1,0 +1,62 @@
+.navegador{
+}
+.ul-navegador{  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(31, 122, 122);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-navegador li{
+    padding: .5em .5em;
+    color: azure;
+    border-color: azure;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ul-navegador li a{
+    color: azure;
+    text-decoration: none;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.aside{
+    grid-column: 1 / 2
+}
+/* PREVIOS */
+.header{
+    background-color: rgb(18, 167, 154);
+    width: 100%;
+    height: 5%;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.footer{
+    background-color: rgb(146, 142, 142);
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+    margin-top: 2px;
+}
+.formulario{
+    background-color: #8bb189;
+    font-size: 1.1em;
+    border-color: rgb(26, 75, 13);
+    border-style: solid ;
+    border-width: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 10px;    
+    grid-column: 2 / 2;
+}

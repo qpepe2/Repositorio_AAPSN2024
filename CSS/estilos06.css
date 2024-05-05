@@ -1,0 +1,114 @@
+.body{
+    width: 90%;
+    max-width: 900px;
+    font: .9em/1.2 arial, helvetica, sans-serif;
+    color: aliceblue;
+}
+.header{
+    background-color: rgb(202, 133, 54);
+    width: 100%;
+    height: 5%;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.footer{
+    background-color: rgb(146, 142, 142);
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+    margin-top: 2px;
+}
+/* CLASE 06*/
+.main{
+
+}
+.box{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(207, 232,220);
+    color: #0e9b39;
+    padding: 1em;
+    float: left;
+    margin: 15px;
+}
+.box2{
+    border-radius: 5px;
+    background-color: rgb(207, 232,220);
+    color: #0e9b39;
+    padding: 1em;
+    float: left;
+    margin: 15px;
+}
+.special{
+    background-color: rgb(79, 185, 227);
+    padding: 10px;
+    color: #fff;
+    margin: 15px;
+}
+.section{
+    display: flex;
+
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+}
+.elemento1{
+    background-color: violet;
+    color: rgb(66, 33, 33);
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+    margin: 2px;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.elemento2{
+    background-color: rgb(112, 17, 112);
+    color: rgb(185, 151, 151);
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+    margin: 2px;
+}
+
+.section-grid{
+    margin-top: 5px;
+    background-color: rgb(56, 54, 54);
+    color: azure;
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    gap: .5em;
+}
+.grid-titulo{
+    grid-row: 1;
+    text-align: center;
+    grid-column: span 2;
+    font-size: larger;
+}
+.grid-articulo{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: darkslategrey;
+    text-align: justify;
+    padding: 5px;
+}
+.grid-aside{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 5px;
+    background-color: rgb(100, 100, 201);
+}
+.grid-footer{
+    grid-row:  3;
+    padding: 5px;
+    grid-column: span 2;
+}
