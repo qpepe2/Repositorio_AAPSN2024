@@ -1,0 +1,115 @@
+.body{
+    font: .9em/1.2 arial, helvetica, sans-serif;
+    color: rgb(67, 79, 90);
+}
+.header{
+    background-color: rgb(202, 133, 54);
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.footer{
+    background-color: rgb(146, 142, 142);
+    padding: 5px;
+    margin-top: 2px;
+}
+/* CLASE 07*/
+.main{
+    text-align: center;
+    padding: 1em;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+.caja1{
+    background-color: red;
+    color: black;
+}
+.caja3{
+    background-color: red;
+    color: black;
+}
+.caja5{
+    background-color: red;
+    color: black;
+}
+.caja7{
+    background-color: red;
+    color: black;
+}
+.caja9{
+    background-color: red;
+    color: black;
+}
+.caja2{
+    background-color: black;
+    color: red;
+}
+.caja4{
+    background-color: black;
+    color: red;
+}
+.caja6{
+    background-color: black;
+    color: red;
+}
+.caja8{
+    background-color: black;
+    color: red;
+}
+
+@media (min-width: 320px) and (max-width:768px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    
+    .caja2{
+        background-color: red;
+        color: black;
+    }
+    .caja4{
+        background-color: red;
+        color: black;
+    }
+    .caja6{
+        background-color: red;
+        color: black;
+    }
+    .caja8{
+        background-color: red;
+        color: black;
+    }
+    .caja1{
+        background-color: black;
+        color: red;
+    }
+    .caja3{
+        background-color: black;
+        color: red;
+    }
+    .caja5{
+        background-color: black;
+        color: red;
+    }
+    .caja7{
+        background-color: black;
+        color: red;
+    }
+    .caja9{
+        background-color: black;
+        color: red;
+    }
+
+}
+@media (min-width: 769px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+    }
+}
