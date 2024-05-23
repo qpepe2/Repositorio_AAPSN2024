@@ -1,3 +1,6 @@
+
+/* EJERCIOCIOS 10*/
+
 let nombre = "Carlo";
 let apellido = "Perex";
 
@@ -21,4 +24,16 @@ let suma4 = suma2 + nomApell;
 
 console.log ("La multiplicación de una variable numérica y una variable booleana da "+ suma3)
 console.log ("La suma de una variable numerica y una variable string da "+ suma4)
+
+
+/* EJERCICIOS 11*/
+
+let helado = 45;
+let topping = ["oreo", "kitkat", "kinder"]
+
+
+
+oreo = 10;
+let kitkat = 15;
+let kinder = 25;
 
