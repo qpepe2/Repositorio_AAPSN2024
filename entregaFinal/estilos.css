@@ -1,0 +1,56 @@
+.body{
+    background-color: beige;
+    background-image: url("../Img/fondo.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    color: rgb(85, 82, 82);
+}
+
+.menuppal{
+    display: flex;
+    flex-direction: column;
+    color: rgb(85, 82, 82);
+}
+.exit{
+    align-items: end;
+    text-align: end;
+    color: black;
+}
+@media (min-width: 320px) and (max-width:768px){
+    .menuppal{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 769px){
+    .menuppal{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.img2{
+    width: 50%;
+    margin: auto;
+
+}
+
+.debajo{
+    margin-top: 2em;
+}
+
+.macrame{
+    overflow: auto;
+}
+.derecha{
+    float: right;
+    width: 50%;
+    border-radius: 10px;
+}

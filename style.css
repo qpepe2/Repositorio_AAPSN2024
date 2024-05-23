@@ -59,3 +59,10 @@
 .ul-navegador li a:hover{
     color: rgb(221, 200, 200);
 }
+
+.pagina{
+    color: rgb(138, 66, 160);
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
