@@ -51,6 +51,9 @@
 }
 .derecha{
     float: right;
-    width: 50%;
+    width: 20%;
+}
+
+.borderadio{
     border-radius: 10px;
 }
