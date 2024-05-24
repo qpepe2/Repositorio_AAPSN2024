@@ -7,6 +7,6 @@ if (edad>=18){
     alert ( "¡Bienvenid@ a la web de Variete!" );
 }
 else{
-    alert ( "ADVERTENCIA: Ud. es menor de edad, está ingresando al sitio bajo su responsabilidad");
+    alert ( "ADVERTENCIA: Ud. es menor de edad, se recomienda ei acompañamento de una persona mayor");
 }
 
