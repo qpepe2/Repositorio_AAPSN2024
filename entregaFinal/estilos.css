@@ -13,21 +13,7 @@
     color: rgb(85, 82, 82);
 }
 .exit{
-    align-items: end;
-    text-align: end;
     color: black;
-}
-@media (min-width: 320px) and (max-width:768px){
-    .menuppal{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media (min-width: 769px){
-    .menuppal{
-        display: flex;
-        flex-direction: row;
-    }
 }
 
 .centrado{
@@ -36,24 +22,36 @@
     justify-content: center;
     text-align: center;
 }
-.img2{
-    width: 50%;
-    margin: auto;
-
-}
 
 .debajo{
     margin-top: 2em;
 }
 
-.macrame{
-    overflow: auto;
+.macrame2{
+    float: none;
+    object-position: center;
 }
-.derecha{
-    float: right;
-    width: 20%;
+
+
+.video{
+ 
+    height: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .borderadio{
     border-radius: 10px;
+}
+
+@media (min-width: 993px){
+    .menuppal{
+        display: flex;
+        flex-direction: row;
+    }
+    .macrame2{
+        float: left;
+    }
 }
