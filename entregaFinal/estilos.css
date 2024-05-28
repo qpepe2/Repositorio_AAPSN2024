@@ -2,7 +2,7 @@
     background-color: beige;
     background-image: url("../Img/fondo.jpg");
     background-repeat: repeat-y;
-    background-size: cover;
+    background-size:contain;
     background-position: center;
     color: rgb(85, 82, 82);
 }
@@ -34,12 +34,9 @@
 
 
 .video{
- 
+    border-radius: 10px;
     height: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 1em;
 }
 
 .borderadio{
