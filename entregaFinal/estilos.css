@@ -2,7 +2,7 @@
     background-color: beige;
     background-image: url("../Img/fondo.jpg");
     background-repeat: repeat-y;
-    background-size:contain;
+    background-size:cover;
     background-position: center;
     color: rgb(85, 82, 82);
 }
